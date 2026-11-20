@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
 client/node_modules/
+package-lock.json
 
 # Production build outputs
 dist/
@@ -26,3 +27,14 @@ server/salaryai.db
 # Operating System files
 .DS_Store
 Thumbs.db
+
+# Legacy prototype archive
+app.py
+train_model.py
+test_api.py
+requirements.txt
+screenshot.png
+data/
+models/
+static/
+templates/
