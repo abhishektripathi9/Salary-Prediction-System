@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Production build outputs
+dist/
+client/dist/
+
+# Python cache & virtual environments
+__pycache__/
+server/__pycache__/
+server/ml/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Local database
+server/salaryai.db
+
+# Environment variables
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db

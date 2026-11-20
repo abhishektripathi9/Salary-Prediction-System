@@ -1,0 +1,15 @@
+{
+  "name": "salaryai-platform",
+  "version": "4.2.0",
+  "description": "SalaryAI — Tech Compensation & Leveling Engine (Public & Admin Unified Monorepo)",
+  "scripts": {
+    "dev": "concurrently -k -n \"SERVER,CLIENT\" -c \"blue,green\" \"python server/app.py\" \"npm --prefix client run dev\"",
+    "start": "concurrently -k -n \"SERVER,CLIENT\" -c \"blue,green\" \"python server/app.py\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix client run build",
+    "train": "python server/ml/train.py",
+    "seed": "python server/seed.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
